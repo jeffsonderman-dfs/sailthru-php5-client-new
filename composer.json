@@ -1,13 +1,19 @@
 {
-    "name": "sailthru/sailthru-php5-client",
+    "name": "jeffsonderman/sailthru-php5-client",
+    "description": "Fork with bugfix of sailthru/sailthru-php5-client v1.2.4",
     "type": "library",
-    "description": "Sailthru PHP5 Client",
-    "homepage": "http://github.com/sailthru/sailthru-php5-client",
     "license": "MIT",
-    "require-dev": {
-        "phpunit/phpunit": "~4.8"
-    },
     "autoload": {
-        "classmap": ["sailthru/"]
-    }
+        "psr-4": {
+            "Jeffsonderman\\SailthruPhp5Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeff Sonderman",
+            "email": "jeff@deltaflowsolutions.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
